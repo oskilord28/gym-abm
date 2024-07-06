@@ -1,0 +1,6 @@
+.contenedor {
+    background: linear-gradient(to bottom, #848484, #cecece);
+    border-radius: 20px;
+    margin: 50px auto;
+    width: 70%;
+}
