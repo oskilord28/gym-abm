@@ -15,8 +15,6 @@ const Contenedor = () => {
 
         .then(resp => setClases(resp.data))
       
-      
-        
     }, [])
     
  
@@ -24,7 +22,6 @@ const Contenedor = () => {
         axios.post(url, nuevo)
         .then((response) => { 
 
-            
             setClases([...clases, response.data])})
     }
 
